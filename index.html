@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive">
+    <meta name="keywords" content="HTML, CSS,">
+    <meta name="author" content="Guja Mikashavidze">
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <title>FORMS</title>
+    <title>Forms</title>
 </head>
 <body>
     <header>
         <div class="header-background">
-            <div class="header-block">
+            <div class="header-wraper">
                 <div class="nav-menu">
-                    <a class="logo" href="#"><img src="img/zetta.svg" alt="logo"></a>
-                    <nav>
+                    <a href="#"><img src="img/zetta.svg" alt="logo"></a>
+                    <nav class="navigation">
                         <ul class="nav-ul">
                             <li class="nav-li">
                                 <a class="nav-a" href="#">Home</a>
                             </li>
                             <li class="nav-li">
                                 <a class="nav-a" href="#">Rooms</a>
-                                <a class="drop-down" href="#"><i class="fas fa-caret-down"></i></a>
                             </li>
                             <li class="nav-li">
                                 <a class="nav-a" href="#">Restaurant</a>
@@ -40,15 +42,13 @@
                             </li>
                         </ul>
                     </nav>
-                    <!-- <div class="burger">
+                    <div class="burger">
                         <i class="fas fa-bars"></i>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="bottom-block">
-                    <h1 class="title">
-                        Contact
-                    </h1>
-                    <div class="bottom-child">
+                    <h1 class="title">Contact</h1>
+                    <div class="child">
                         <a class="home" href="#">Home</a>
                         <div class="line"></div>
                         <a class="contact" href="#">Contact</a>
@@ -73,22 +73,22 @@
            <div class="left-block">
                <form action="">
                    <label for="description"></label>
-                   <textarea class="description" name="description" id="text" placeholder="Description"></textarea>
+                   <textarea class="description" name="description" id="description" placeholder="Description"></textarea>
                </form>
            </div>
            <div class="right-block">
             <form action="">
                 <div class="form-element">
-                    <label for="Subjact"></label>
+                    <label for="mysubjact"></label>
                     <input class="input" type="text" id="mysubjact" name="Subjact" placeholder="Subjact">
                 </div>
                 <div class="form-element">
                     <label for="fname"></label>
-                    <input class="input" type="text" id="fullname" name="fname" placeholder="Name/Surname">
+                    <input class="input" type="text" id="fname" name="fname" placeholder="Name/Surname">
                 </div>
                 <div class="form-element">
                     <label for="email"></label>
-                    <input class="input" type="email" id="myemail" name="email" placeholder="Email">
+                    <input class="input" type="email" id="email" name="email" placeholder="Email">
                 </div>
                 <button class="button" type="submit">Send</button>
             </form>
@@ -101,7 +101,7 @@
                 </div>
                 <h3 class="block-title">Email</h3>
                 <p class="block-text">
-                   example@yahoo.com
+                   example@yahoo.com <br>
                    exampleemail2@yahoo.com
                 </p>
             </div>
@@ -111,7 +111,7 @@
                 </div>
                 <h3 class="block-title">Phone</h3>
                 <p class="block-text">
-                    +0 320 422 4254
+                    +0 320 422 4254 <br>
                     +0 342 552 523
                 </p>
             </div>
@@ -121,7 +121,7 @@
                 </div>
                 <h3 class="block-title">Location</h3>
                 <p class="block-text">
-                    Main Str Chicago Ilinois
+                    Main Str Chicago Ilinois <br>
                     Main Street New York City
                 </p>
             </div>
@@ -145,16 +145,18 @@
         <div class="footer-background">
             <div class="footer-wraper">
                 <div class="footer-block">
-                    <div class="block1">
-                        <a href="#"><img src="img/zetta.svg" alt="logo"></a>
-                        <p class="block1-text">
-                            Our hotel is an image of quality and profesionalism combined with hard work and precision. 
-                            You can expect only the best services from our staff.
-                        </p>
-                        <div class="social-icons">
-                            <a class="icons" href="#"><img src="img/fb.svg" alt="fb"></a>
-                            <a class="icons" href="#"><img src="img/twitter.svg" alt="twitter"></a>
-                            <a class="icons" href="#"><img src="img/google.svg" alt="google"></a>
+                    <div class="-first-div">
+                        <div class="block1">
+                            <a href="#"><img src="img/zetta.svg" alt="logo"></a>
+                            <p class="block1-text">
+                                Our hotel is an image of quality and profesionalism combined with hard work and precision. 
+                                You can expect only the best services from our staff.
+                            </p>
+                            <div class="social-icons">
+                                <a class="icons" href="#"><img src="img/fb.svg" alt="fb"></a>
+                                <a class="icons" href="#"><img src="img/twitter.svg" alt="twitter"></a>
+                                <a class="icons" href="#"><img src="img/google.svg" alt="google"></a>
+                            </div>
                         </div>
                     </div>
                     <div class="block2">
